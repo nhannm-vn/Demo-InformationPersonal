@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="vi" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project_2_page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="cv-carousel">
+            <div class="content-top">
+                <div class="content-top__left">
+                    <div class="spe-character">
+
+                    </div>
+                    <p><strong>Nicol Rider</strong> <span class="spe-content">Editor</span></p>
+                </div>
+                <div class="content-top__right">
+                    <div class="nav-list">
+                        <ul class="nav-list-block">
+                            <li class="nav-list-element">
+                                <!-- <a href="../page-resume/index.html" class="nav-list-link">Resume</a> -->
+                                 <!-- cách có hiệu ứng khi chuyển trang web -->
+                                <a onclick="transitionToPage('../page-resume/index.html')" class="nav-list-link">Resume</a>
+                            </li>
+                            <li class="nav-list-element-spe">
+                                &#124;
+                            </li>
+                            <li class="nav-list-element">
+                                <!-- <a href="#" class="nav-list-link">Projects</a> -->
+                                <a onclick="transitionToPage('../page_project/index.html')" class="nav-list-link">Projects</a>
+                            </li>
+                            <li class="nav-list-element-spe">
+                                &#124;
+                            </li>
+                            <li class="nav-list-element">
+                                <a onclick="transitionToPage('../page_contact/index.html')" class="nav-list-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="content-bottom">
+                <div class="content-bottom-just">
+                    <div class="content-bottom-just-left">
+                        <div class="content-bottom-just-left-1">
+                            <h1>Contact</h1>
+                            <p style="font-weight: 300; font-size: 1.4rem; margin-top: 1.5rem;">
+                                Looking forward to hearing from you
+                            </p>
+                        </div>
+                        <div class="content-bottom-just-left-2" style="margin: 2rem 0px; ">
+                            <strong>Phone</strong><br/>
+                            <p style="font-weight: 300; font-size: 1.4rem; margin-top: 0.5rem">123-456-7890</p>
+                        </div>
+                        <div class="content-bottom-just-left-3">
+                            <strong>Email</strong><br/>
+                            <p style="font-weight: 300; font-size: 1.4rem; margin-top: 0.5rem">info@mysite.com</p>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="content-bottom-just-right">
+                        <div class="full-button">
+                            <div class="full-button-small-1">
+                                <div style="margin-right: 2rem;">
+                                    <form>
+                                        <div style="font-family: Roboto, sans-serif; font-weight: 300; font-size: 1.2rem; margin-bottom: 0.5rem;">
+                                            <label for="firstname">First Name</label>
+                                        </div>
+                                        <div>
+                                            <input class="input-firstname" type="text" id="firstname" name="firstname">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div style="margin-right: 10rem;">
+                                    <form>
+                                        <div style="font-family: Roboto, sans-serif; font-weight: 300; font-size: 1.2rem; margin-bottom: 0.5rem;">
+                                            <label for="firstname">Last Name</label>
+                                        </div>
+                                        <div>
+                                            <input class="input-firstname" type="text" id="lastname" name="lastname">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="full-button-small-2">
+                                <div style="margin-right: 2rem;">
+                                    <form>
+                                        <div style="font-family: Roboto, sans-serif; font-weight: 300; font-size: 1.2rem; margin-bottom: 0.5rem;">
+                                            <label for="email">Email</label>
+                                        </div>
+                                        <div>
+                                            <input class="input-firstname" type="email" id="email" name="email">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div style="margin-right: 10rem;">
+                                    <form>
+                                        <div style="font-family: Roboto, sans-serif; font-weight: 300; font-size: 1.2rem; margin-bottom: 0.5rem;">
+                                            <label for="subject">Subject</label>
+                                        </div>
+                                        <div>
+                                            <input class="input-firstname" type="text" id="subject" name="subject">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="full-button-small-2" style="position: relative;">
+                                <div style="margin-right: 21rem;">
+                                    <form >
+                                        <div >
+                                            <div style="font-family: Roboto, sans-serif; font-weight: 300; font-size: 1.2rem; margin-bottom: 0.5rem;">
+                                                <label for="message">Message</label>
+                                            </div>
+                                            <div>
+                                                <input style="width: 24rem; height: 14rem;" class="input-firstname" type="text" id="message" name="message">
+                                            </div>
+                                        </div>
+                                        <div class="button-link" style="position: absolute; top: 2.2rem; right: 5.5rem;">
+                                            <a class="button-link-element" href="#"><strong>Submit</strong></a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-end">
+                <hr />
+                <div class="content-end-just">
+                    <div class="content-end-phone" style="line-height: 3rem;">
+                        <p>
+                            <strong>Phone</strong><br />
+                            <p style="font-size: 1.3rem;">123-456-7890</p>
+                        </p>
+                    </div>
+                    <div class="content-end-email" style="line-height: 3rem;">
+                        <p>
+                            <strong>Email</strong><br />
+                            <p style="font-size: 1.3rem;">info@mysite.com</p>
+                        </p>
+                    </div>
+                    <div class="content-end-follow">
+                        <p>
+                            <strong>Follow Me</strong>
+                            <div><strong style="font-size: 2rem;font-weight: 700;">in</strong>&#8194;<i class="fa-brands fa-twitter"></i></div>
+                        </p>
+                    </div>
+                    <div class="content-end-nicol">
+                        <p>
+                            © 2035 By Nicol Rider. <br />
+                            Powered and secured by Wix
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div style="height: 100vh;"></div> -->
+        </div>
+    </div>
+
+<script src="./style.js"></script>
+</body>
+
+</html>

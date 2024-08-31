@@ -1,0 +1,155 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    font-size: 1.6rem;
+}
+
+/* js */
+body { 
+    opacity: 0;
+    transition: opacity .7s;
+}
+
+/*  */
+.container{
+    border: 1px solid black;
+    max-width: 1320px;
+    margin: 0px auto;
+    background-color: #eeeeee;
+}
+.cv-carousel{
+    /* border: 1px solid green; */
+    margin: 0px 2rem;
+}
+.content-top{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    margin-top: 2.5rem;
+    position: relative;
+    /* border: 1px solid hotpink; */
+}
+.content-top__left{
+    /* border: 1px solid blue; */
+    display: flex;
+    margin-left: 7rem;
+}
+.spe-character{
+    background-color: orange;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0rem;
+    left: 4rem;
+}
+.spe-content{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.content-top__right{
+    /* border: 1px solid blue; */
+    margin-right: 5rem;
+}
+.nav-list-block{
+    display: flex;
+}
+.nav-list-element{
+    list-style-type: none;
+    margin-left: 2rem;
+}
+.nav-list-link{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 370;
+}
+.nav-list-element-spe{
+    font-weight: 370;
+    list-style-type: none;
+    padding-left: 2rem;
+}
+.nav-list-link:hover{
+    color: rgb(132, 74, 16);
+    transition: 0.3s;
+}
+/*  */
+.content-bottom{
+    margin: 0px 10rem;
+}
+.content-bottom-resume{
+    /* border: 1px solid red; */
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+}
+
+.content-bottom-resume-top{
+    /* border: 1px solid blue; */
+    width: 100%;
+}
+.content-bottom-resume-top-left{
+    /* border: 1px solid yellow; */
+    width: 50%;
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.content-bottom-resume-top-right{
+    /* border: 1px solid yellow; */
+    width: 50%;
+}
+
+.content-bottom-resume-work-left{
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+.content-bottom-resume-work-right-1{
+    display: flex;
+    padding-left: 40rem;
+    font-size: 1.4rem;
+}
+
+.content-bottom-work-top{
+    display: flex;
+    justify-content: space-between;
+}
+.content-bottom-resume-work-right-1-present{
+    margin-right: 1rem;
+    width: 35rem;
+}
+.content-bottom-resume-work-right-1-content{
+    padding-right: 20rem;
+    line-height: 2.5rem;
+}
+
+.content-bottom-resume-work-right-1{
+    margin-bottom: 7rem;
+}
+
+.content-bottom-resume-work-ul{
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2.2rem;
+    margin-right: 11rem;
+    
+}
+/*  */
+.content-end{
+    margin-top: 17rem;
+}
+.content-end-just{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+.content-end-nicol{
+    font-size: 1.1rem;
+}
