@@ -105,53 +105,93 @@ body {
     /* border: 1px solid blue; */
     margin-top: 2rem;
     width: 70%;
+    margin-left: 22rem;
 }
-.full-button-small-1{
-    display: flex;
-    justify-content: flex-end;
-    /* border: 2px solid green; */
-    
-}
-.full-button-small-2{
-    margin-top: 1rem;
-    display: flex;
-    justify-content: flex-end;
-    /* border: 2px solid green; */
-    
-}
-.input-firstname{
-    background-color: #eeeeee;
-    outline: none;
+/* phần button */
+.input-fname{
+    width: 17rem;
+    height: 4rem;
     border: 1px solid black;
-    height: 3rem;
+    border-radius: 0%;
+    background-color: #eeeeee;
+    font-size: 1.8rem;
 }
-.input-firstname:hover{
+.input-fname:focus{
     outline: none;
+    background-color: #eeeeee;
     border: 2px solid black;
+    box-shadow: none;
+}
+.input-lname{
+    width: 17rem;
+    height: 4rem;
+    border: 1px solid black;
+    border-radius: 0%;
+    background-color: #eeeeee;
+    font-size: 1.8rem;
 }
 
-.button-link{
-    border: 1px solid black;
-    width: 13rem;
-    height: 13rem;
-    border-radius: 50%;
-    text-align: center;
+.input-lname:focus{
+    outline: none;
+    background-color: #eeeeee;
+    border: 2px solid black;
+    box-shadow: none;
 }
-.button-link-element{
-    text-decoration: none;
-    color: black;
-    width: 100%;
-    display: block;
-    border-radius: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.input-email{
+    width: 17rem;
+    height: 4rem;
+    border: 1px solid black;
+    border-radius: 0%;
+    background-color: #eeeeee;
+    font-size: 1.8rem;
+}
+.input-email:focus{
+    outline: none;
+    background-color: #eeeeee;
+    border: 2px solid black;
+    box-shadow: none;
+}
+.input-subject{
+    width: 17rem;
+    height: 4rem;
+    border: 1px solid black;
+    border-radius: 0%;
+    background-color: #eeeeee;
+    font-size: 1.8rem;
+}
+.input-subject:focus{
+    outline: none;
+    background-color: #eeeeee;
+    border: 2px solid black;
+    box-shadow: none;
+}
+.input-area{
+    width: 42rem;
+    height: 10rem;
+    max-height: 12rem;
+    border: 1px solid black;
+    border-radius: 0%;
+    background-color: #eeeeee;
+    font-size: 1.8rem;
+}
+.input-area:focus{
+    outline: none;
+    background-color: #eeeeee;
+    border: 2px solid black;
+    box-shadow: none;
+}
+/* button */
+.btn-submit{
+    border: 1px solid black;
+    width: 42rem;
+    height: 5rem;
+    border-radius: 5rem;
+    font-size: 2rem;
+    font-weight: 700;
     background-color: orange;
 }
-.button-link-element:hover{
-    background-color: #eeeeee;
-    transition: 0.3s;
+.btn-submit:hover{
+    border: 1.2px solid black;
 }
 /*  */
 .content-end{
